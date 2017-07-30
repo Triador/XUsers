@@ -1,0 +1,208 @@
+body {
+    font: normal medium/1.4 sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+
+.form-style-5{
+
+    max-width: 900px;
+    width: 40%;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 0px auto;
+    padding: 10px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+    border: none;
+    display: inline-block;
+    width: 43%;
+    vertical-align: top;
+}
+.form-style-5 fieldset.right{
+    float:right;
+}
+.form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form-style-5 label {
+    display: block;
+    margin-bottom: 8px;
+}
+input[type="password"],
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 12px;
+
+}
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus,
+select:focus{
+    background: #d2d9dd;
+}
+select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.form-style-5 input[type="text"].field-dividedl,
+.form-style-5 input[type="text"].field-dividedr
+{
+    width: 49%;
+}
+.form-style-5 input[type="text"].field-dividedr{
+    float: right;
+}
+
+
+.number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+input[type="submit"],
+input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 10px 20px 10px 20px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover
+{
+    background: #109177;
+}
+td input[type="submit"]{
+    margin-bottom: 0;
+    padding: 3px 9px;
+    width: 90%;
+}
+td input[type="submit"].inactive{
+    background-color: #e86b6b;
+}
+td input[type="submit"].inactive:hover{
+    background-color: #a94e4e;
+}
+
+td input[type="submit"].active{
+    background-color: #84de84;
+
+}td input[type="submit"].active:hover{
+     background-color: #6db96d;
+ }
+.wrap_search_bar{
+    max-width: 700px;
+    width: 90%;
+    margin: 5px auto 20px;
+}
+.search_bar{
+    background-color: #1abc9c;
+    margin-bottom: 10px;
+    padding: 10px 10px 2px 10px;
+    border-radius: 15px 15px 0px 0px;
+
+
+}
+.search_bar input[type=text]{
+    width: 70%;
+}
+.search_bar select{
+    width: 14%;
+}
+
+.search_bar input[type=submit]{
+    width: 14%;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0 5px 5px 0 ;
+}
+div.form-wrapper{
+    max-width: 2000px;
+    min-width: 1800px;
+    width: 99%;
+    padding: 10px 20px;
+    margin: 49px auto;
+    padding: 0;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+.form-style-5 form.logout input[type=submit]{
+
+    border-radius: 0px 0 15px 15px ;
+}
+#userCreate{
+    border-radius: 15px 15px 0px 0;
+}
+#userUpdate{
+    border-radius: 0px 0px 15px 15px;
+}
